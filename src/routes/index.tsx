@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
 const skills = [
   "TypeScript", "React", "Next.js", "Node.js", "TanStack",
   "Tailwind CSS", "PostgreSQL", "Prisma", "GraphQL", "Docker",
-  "AWS", "Python", "tRPC", "Framer Motion",
+  "AWS", "Python", "tRPC", "MongoDB"
 ];
 
 const projects = [
@@ -51,42 +51,55 @@ const projects = [
     link: "http://github.com/Akbarkhan2266",
   },
   {
-    title: "Lumen AI",
-    description: "Conversational AI workspace with custom agents, tools, and streaming responses.",
+    title: "ResumeIQ - AI-powered resume builder and job application assistant",
+    description: "AI-powered resume builder and job application assistant that helps users create tailored resumes and cover letters, optimize for ATS, and get personalized job recommendations.",
     image: project3,
-    tags: ["Next.js", "OpenAI", "Vercel AI"],
-    link: "#",
+    tags: ["Next.js", "OpenAI", "Puter AI", "Junie AI", "puter.Js"],
+    link: "https://github.com/Akbarkhan2266/ResumeIQ",
   },
   {
-    title: "Atelier Commerce",
-    description: "Headless e-commerce storefront with edge-rendered product pages and Stripe checkout.",
+    title: "Reservation App - A restaurant reservation system built with React and TailwindCSS",
+    description: "A user-friendly restaurant reservation system that allows customers to easily book tables online, while providing restaurant owners with efficient management tools to optimize their operations.",
     image: project4,
-    tags: ["Next.js", "Shopify", "Stripe"],
-    link: "#",
+    tags: ["Reactjs","TailwindCSS", "Shopify", "MongoDb"],
+    link: "https://github.com/Akbarkhan2266/reservation_app",
   },
 ];
 
 const education = [
   {
     school: "Raja Balwant Singh Management Technical Campus, Agra",
-    degree: "B.Tech in Computer Science",
-    period: "2019 — 2023",
-    detail: "Graduated with distinction. Focus on distributed systems & HCI.",
+    degree: "Master of Computer Applications (MCA)",
+    period: "2021 — 2026",
+    detail: "Pursuing a Master's degree in Computer Applications with a focus on software development, algorithms, and system design. Expected to graduate in 2026.",
+    icon: GraduationCap,
+  },  {
+    school: "John Milton Public School, Agra",
+    degree: "Intermediate (12th Grade), Science Stream; High School (10th Grade)",
+    period: "2019 — 2021",
+    detail: "Completed Intermediate education with a focus on Science, achieving a strong academic record. Also completed High School education with a solid foundation in core subjects. Both stages of education provided a comprehensive understanding of scientific principles and critical thinking skills.",
     icon: GraduationCap,
   },
   {
-    school: "Google — Software Engineer",
-    degree: "Frontend Platform Team",
-    period: "2023 — Present",
-    detail: "Building tooling and design systems used by 200+ engineers.",
+    school: "Flikt Technologies, Pune",
+    degree: "Full Stack Software Engineer (Internship)",
+    period: "Nov 2025 — Jan 2026",
+    detail: "Completed a 3-month internship as a Full Stack Software Engineer at Flikt Technologies, Pune. Gained hands-on experience in developing web applications using modern technologies, collaborating with cross-functional teams, and contributing to real-world projects. This internship provided valuable insights into the software development lifecycle and enhanced my technical skills in a professional setting.",
+    icon: Briefcase,
+  },
+   {
+    school: "AGS WebDev, Greater Noida",
+    degree: "Full Stack Software Developer (Internship)",
+    period: "Jan 2025 — May 2025",
+    detail: "Completed a 5-month as a Full Stack Software Developer at AGS WebDev, Greater Noida. Worked on developing and maintaining web applications, implementing new features, and optimizing performance. Collaborated with a team of developers and gained practical experience in software development best practices, version control, and agile methodologies.",
     icon: Briefcase,
   },
 ];
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/Akbarkhan2266" },
+  { icon: Linkedin, label: "LinkedIn", href: "www.linkedin.com/in/akbar-khan-364628240" },
+  { icon: Twitter, label: "Twitter", href: "https://twitter.com/Akbarkhan7417" },
   { icon: Mail, label: "Email", href: "mailto:akbarkh7417@gmail.com" },
 ];
 
